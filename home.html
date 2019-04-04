@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="homestyle.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-header">
+        <div class="nav-title" style="font-family:Times sans-serif; color:orange;">
+          Mehndi.com
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <input type="checkbox" id="nav-check">
+      <div class="nav-links">
+        <a href="order.html" target="_self">Give Order</a>
+        <a href="#" target="_self">Be Afillated</a>
+        <a href="#" target="_self">Our Work</a>
+        <a href="#" target="_self">Price Details</a>
+        <a href="#" target="_self">Contact Us</a>
+      </div>
+    </div>
+
+    <div style="height:500px; background-color:(1,1,0,0.7);margin-top:-12px;">
+      <img class="mySlides" src="http://www.colourpic.com/blog/wp-content/uploads/2016/04/Mehendi-Gujarati-Wedding-Candid.jpg" style="width:100%;height:500px;">
+       <img class="mySlides" src="https://static.wixstatic.com/media/35f55a_de6391fa7095448182ed19d0549a86d9~mv2.jpg/v1/fill/w_1200,h_801,al_c,q_90/file.jpg" style="width:100%;height:500px;">
+       <img class="mySlides" src="https://image.slidesharecdn.com/destinationweddingphotographyinhyderabad-suprabhaumang-180518093638/95/destination-wedding-photography-of-suprabha-umang-3-638.jpg?cb=1526636645" style="width:100%;height:500px;">
+       <img class="mySlides" src="http://in.bookmyfunction.com/blog/wp-content/uploads/2016/05/Arabic-Flower-Mehendi-Designs.jpg" style="width:100%;height:500px;">
+       <img class="mySlides" src="https://blog.saralmarriage.com/wp-content/uploads/2017/11/A-brief-history-behind-Mehendi-ceremony.jpg" style="width:100%;height:500px;">
+       <img class="mySlides" src="https://tintedphotography.com/wp-content/uploads/img_7771-2ps.png" style="width:100%;height:500px;">
+    </div>
+
+
+    <div class="footer">
+      <h1> Join the Artist Team </h1>
+        <p style="margin-left:70px; font-size:15px; text-align:center;">This a small request form so that we can contact to the insterested girls <br>
+          for this work in order to give benifits out of their talent <br>
+          Note:- we can currently hire girls only from pune city <br>
+          we are shortly coming soon to various city stay connetecd
+        </p>
+
+      <form  style="margin-top:70px;">
+         <label for="fname" style="margin-left:35%;">First Name</label>
+           <input type="text" id="fname" name="fname"> <br>
+                <label for="lname" style="margin-left:35%;">Last Name</label>
+          <input type="text" id="lname" name="lname">
+          <label for="lname" style="margin-left:35%;">Contact</label>
+          <input type="text" id="cont" name="contact" > <br>
+          <button class="button button4">Submit</button>
+     </form>
+   </div>
+
+  </body>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+
+</html>
