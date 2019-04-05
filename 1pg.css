@@ -1,5 +1,5 @@
 body{
-  background-image: url("pics/homebg.jpg");
+  background-image: url("homebg.jpg");
   background-size: cover;
   background-attachment: fixed;
   height:100%;
@@ -9,7 +9,7 @@ body{
 
 @media (max-width:600px){
   body{
-    background-image:url("pics/mb1.jpg");
+    background-image:url("mb1.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
