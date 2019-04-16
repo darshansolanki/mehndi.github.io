@@ -50,7 +50,7 @@ body{
       margin-left:-35px;
     }
  body{
-      background-image: linear-gradient(to top, red, purple);
+      background-color: linear-gradient(to top, red, purple);
     }
   }
 
