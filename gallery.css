@@ -1,0 +1,33 @@
+body{
+    background-image:linear-gradient(to top,red,purple);
+    background-size:cover;
+    background-attachment:fixed;
+    overflow-y:scroll ;
+    overflow-x: hidden;
+    margin: 0px;
+  }
+
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height:100%;
+    background-color:rgba(0, 0, 0, 0.3);
+  }
+
+.container{
+ display:block;
+ flex-wrap:wrap-reverse;
+ justify-content: center;
+ margin-left:40px;
+}
+img{
+    margin: 25px;
+    transition: all 1s;
+    height:300px;
+    width:250px;
+}
+img:hover{
+    transform: scale(1.1)
+}
