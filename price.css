@@ -47,6 +47,10 @@ body{
       width: 100%;
       display: block;
       margin-bottom: 15px;
+      margin-left:-35px;
+    }
+          body{
+      background-image: linear-gradient(to top, red, purple);
     }
   }
 
